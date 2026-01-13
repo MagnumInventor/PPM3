@@ -41,17 +41,17 @@ const translations = {
         },
         {
           title: "Креативний дизайн",
-          description: "UI/UX дизайн, брендинг, графічний дизайн та створення унікальних візуальних рішень",
+          description: "UI/UX дизайн, брендинг, створення презентацій, графічний дизайн та створення унікальних візуальних рішень",
           icon: "🎨",
         },
         {
-          title: "Фото та модель",
-          description: "Предметна фотозйомка, послуги моделі для комерційних зйомок",
+          title: "Фото та монтаж",
+          description: "Предметна фотозйомка, робота з DaVinci Resolve, Sony Vegas, редагування та монтаж комерційних проектів, послуги моделі для комерційних зйомок",
           icon: "📸",
         },
         {
           title: "Обслуговування клієнтів",
-          description: "Досвід роботи офіціантом та кухарем у закладах України",
+          description: "Досвід роботи у закладах готельно-ресторанного бізнесу України",
           icon: "🍽️",
         },
       ],
@@ -115,8 +115,8 @@ const translations = {
         {
           title: "Restaurant App",
           category: "Веб-розробка",
-          description: "Система онлайн-замовлень для ресторану",
-          tech: ["React", "Node.js", "MongoDB"],
+          description: "Робоче середовище для персоналу ресторану",
+          tech: ["MERN", "React", "Node.js", "MongoDB"],
         },
         {
           title: "Product Photography",
@@ -154,11 +154,10 @@ const translations = {
       contact: "Kontakt",
     },
     hero: {
-      greeting: "Hallo,",
-      intro: "Ich bin",
+      // Removed greeting and intro to match UA
       role: "Kreativer Spezialist",
       description:
-        "Erfahrener Spezialist in Webentwicklung, Design, Fotografie und Kundenservice mit langjähriger Erfahrung.",
+        "Erfahrener Spezialist in Webentwicklung, Design, Fotografie und Kundenservice.",
       cta: "Kontakt",
       viewCV: "Lebenslauf ansehen",
       downloadCV: "Lebenslauf herunterladen",
@@ -175,52 +174,52 @@ const translations = {
         },
         {
           title: "Kreatives Design",
-          description: "UI/UX-Design, Branding, Grafikdesign und Erstellung einzigartiger visueller Lösungen",
+          description: "UI/UX-Design, Branding, презентація створення, графічний дизайн та створення унікальних візуальних рішень",
           icon: "🎨",
         },
         {
-          title: "Foto und Modellierung",
-          description: "Professionelle Fotografie, Perspektivarbeit, Portfolio-Shootings und kommerzielle Fotografie",
+          title: "Фото та монтаж",
+          description: "Предметна фотозйомка, робота з DaVinci Resolve, Sony Vegas, редагування та монтаж комерційних проектів, послуги моделі для комерційних зйомок",
           icon: "📸",
         },
         {
-          title: "Kundenservice",
-          description: "Erfahrung als Kellner und Koch in Restaurants in der Ukraine und Deutschland",
+          title: "Обслуговування клієнтів",
+          description: "Досвід роботи у закладах готельно-ресторанного бізнесу України",
           icon: "🍽️",
         },
       ],
     },
     experience: {
-      title: "Berufs",
+      title: "Берufs",
       subtitle: "erfahrung",
       jobs: [
         {
-          period: "2023 — Heute",
-          role: "Kellner",
-          company: "Café Berlin",
-          location: "Berlin, Deutschland",
-          description: "Gästebetreuung in einem beliebten Café, Arbeit mit internationaler Kundschaft.",
+          period: "01.2026 — Heute",
+          role: "Küchenhilfe",
+          company: "Bar&Breakfast",
+          location: "Ternopil, Ukraine",
+          description: "Hilfe bei der Zubereitung von Gerichten, європейська кухня.",
         },
         {
-          period: "2021 — 2023",
-          role: "Koch",
-          company: "Restaurant Kyiv",
-          location: "Kyiv, Ukraine",
-          description: "Zubereitung von ukrainischen und europäischen Gerichten, Teamarbeit.",
+          period: "10.2025 — 01.2026",
+          role: "Кухар",
+          company: "ХАН",
+          location: "Ternopil, Ukraine",
+          description: "Приготування фаст-фуду та донеру, комплексна робота з прийомом замовлень, касою, праця на складі.",
         },
         {
-          period: "2019 — 2021",
-          role: "Kellner",
-          company: "Gasthaus München",
-          location: "München, Deutschland",
-          description: "Service in einem traditionellen bayerischen Restaurant, Kenntnisse der deutschen Küche.",
+          period: "08-09.2025",
+          role: "Касир",
+          company: "Парк Ліхтарів",
+          location: "Ternopil, Ukraine",
+          description: "Обслуговування клієнтів, робота з готівкою та касовим апаратом.",
         },
         {
-          period: "2017 — 2019",
-          role: "Küchenhelfer",
-          company: "Restaurant Lviv",
-          location: "Lviv, Ukraine",
-          description: "Karrierebeginn, Erlernen der Grundlagen des Kochens und der Küchenarbeit.",
+          period: "Q2 2025 — Q3 2025",
+          role: "Ранер",
+          company: "Ресторан-пивоварня \"Ковчег\"",
+          location: "Ternopil, Ukraine",
+          description: "Початок кар'єри, освоєння основ обслуговування гостей, робота в колективі.",
         },
       ],
     },
@@ -231,37 +230,37 @@ const translations = {
         {
           title: "E-commerce Platform",
           category: "Webentwicklung",
-          description: "Moderne E-Commerce-Plattform mit Next.js und Stripe",
+          description: "Moderne E-Commerce-Plattform з Next.js та Stripe",
           tech: ["Next.js", "React", "Tailwind"],
         },
         {
           title: "Brand Identity Design",
-          category: "Design",
-          description: "Umfassendes Branding für ein Startup",
+          category: "Дизайн",
+          description: "Комплексний брендинг для стартапу",
           tech: ["Figma", "Illustrator", "Photoshop"],
         },
         {
           title: "Fashion Photography",
-          category: "Fotografie",
-          description: "Professionelle Portfolio-Shootings für Models",
+          category: "Фотографія",
+          description: "Професійна портфоліо зйомка для моделей",
           tech: ["Canon", "Lightroom", "Photoshop"],
         },
         {
           title: "Restaurant App",
-          category: "Webentwicklung",
-          description: "Online-Bestellsystem für Restaurant",
-          tech: ["React", "Node.js", "MongoDB"],
+          category: "Веб-розробка",
+          description: "Робоче середовище для персоналу ресторану",
+          tech: ["MERN", "React", "Node.js", "MongoDB"],
         },
         {
           title: "Product Photography",
-          category: "Fotografie",
-          description: "Kommerzielle Produktfotografie für E-Commerce",
+          category: "Фотографія",
+          description: "Комерційна зйомка продуктів для e-commerce",
           tech: ["Studio", "Retouching"],
         },
         {
           title: "Mobile App UI",
-          category: "Design",
-          description: "UI/UX-Design einer Fitness-App",
+          category: "Дизайн",
+          description: "UI/UX дизайн мобільного додатку для фітнесу",
           tech: ["Figma", "Prototyping"],
         },
       ],
@@ -282,11 +281,10 @@ const translations = {
   en: {
     nav: { about: "About", services: "Services", experience: "Experience", portfolio: "Portfolio", contact: "Contact" },
     hero: {
-      greeting: "Hello,",
-      intro: "I'm",
+      // Removed greeting and intro to match UA
       role: "Creative Specialist",
       description:
-        "Experienced specialist in web development, design, photography, and customer service with years of expertise.",
+        "Experienced specialist in web development, design, photography, and customer service.",
       cta: "Contact me",
       viewCV: "View CV",
       downloadCV: "Download CV",
@@ -303,17 +301,17 @@ const translations = {
         },
         {
           title: "Creative Design",
-          description: "UI/UX design, branding, graphic design, and creating unique visual solutions",
+          description: "UI/UX design, branding, presentation creation, graphic design, and unique visual solutions",
           icon: "🎨",
         },
         {
-          title: "Photo & Modeling",
-          description: "Professional photography, perspective work, portfolio shoots, and commercial photography",
+          title: "Photo & Editing",
+          description: "Product photography, working with DaVinci Resolve, Sony Vegas, editing and assembling commercial projects, modeling services for commercial shoots",
           icon: "📸",
         },
         {
           title: "Customer Service",
-          description: "Experience as a waiter and cook in restaurants across Ukraine and Germany",
+          description: "Experience in the hospitality and restaurant industry in Ukraine",
           icon: "🍽️",
         },
       ],
@@ -323,32 +321,32 @@ const translations = {
       subtitle: "Experience",
       jobs: [
         {
-          period: "2023 — Present",
-          role: "Waiter",
-          company: "Café Berlin",
-          location: "Berlin, Germany",
-          description: "Guest service in a popular café, working with international clientele.",
-        },
-        {
-          period: "2021 — 2023",
-          role: "Cook",
-          company: "Restaurant Kyiv",
-          location: "Kyiv, Ukraine",
-          description: "Preparing Ukrainian and European cuisine, teamwork.",
-        },
-        {
-          period: "2019 — 2021",
-          role: "Waiter",
-          company: "Gasthaus München",
-          location: "Munich, Germany",
-          description: "Service in a traditional Bavarian restaurant, knowledge of German cuisine.",
-        },
-        {
-          period: "2017 — 2019",
+          period: "01.2026 — Present",
           role: "Kitchen Assistant",
-          company: "Restaurant Lviv",
-          location: "Lviv, Ukraine",
-          description: "Career start, learning the basics of cooking and kitchen work.",
+          company: "Bar&Breakfast",
+          location: "Ternopil, Ukraine",
+          description: "Assisting in dish preparation, European cuisine.",
+        },
+        {
+          period: "10.2025 — 01.2026",
+          role: "Cook",
+          company: "HAN",
+          location: "Ternopil, Ukraine",
+          description: "Preparing fast food and doner, handling orders, cash register, and warehouse work.",
+        },
+        {
+          period: "08-09.2025",
+          role: "Cashier",
+          company: "Park of Lanterns",
+          location: "Ternopil, Ukraine",
+          description: "Customer service, handling cash and cash register.",
+        },
+        {
+          period: "Q2 2025 — Q3 2025",
+          role: "Runner",
+          company: "Restaurant-Brewery 'Kovcheg'",
+          location: "Ternopil, Ukraine",
+          description: "Career start, learning the basics of guest service and teamwork.",
         },
       ],
     },
@@ -377,8 +375,8 @@ const translations = {
         {
           title: "Restaurant App",
           category: "Web Development",
-          description: "Online ordering system for restaurant",
-          tech: ["React", "Node.js", "MongoDB"],
+          description: "Work environment for restaurant staff",
+          tech: ["MERN", "React", "Node.js", "MongoDB"],
         },
         {
           title: "Product Photography",
@@ -574,14 +572,6 @@ export default function Portfolio() {
                 <a href="#portfolio" onClick={() => setMobileMenuOpen(false)} className="text-lg font-medium">
                   {t.nav.portfolio}
                 </a>
-                <a
-                  href="#contact"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-neutral-900 text-white text-sm font-medium rounded-full w-fit"
-                >
-                  {t.nav.contact}
-                  <ArrowUpRight className="w-4 h-4" />
-                </a>
               </div>
             </nav>
           )}
@@ -589,381 +579,267 @@ export default function Portfolio() {
       </header>
 
       {/* Hero Section */}
-      <section id="about" className="min-h-screen flex items-center pt-20">
-        <div className="max-w-7xl mx-auto px-6 py-20 w-full">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left Content */}
-            <div className="order-2 lg:order-1">
-              <div className="reveal">
-                <span className="inline-block px-4 py-1.5 bg-green-100 text-green-700 text-sm font-medium rounded-full mb-6">
-                  {t.hero.available}
-                </span>
-              </div>
-
-              <h1 className="reveal reveal-delay-1">
-                {/*<span className="block text-xl md:text-2xl font-light text-neutral-500 mb-2">{t.hero.greeting}</span>*/}
-                {/*<span className="block text-xl md:text-2xl font-light text-neutral-500">{t.hero.intro}</span>*/}
-                <span className="block text-6xl md:text-8xl font-black tracking-tight leading-none mt-2">Alex</span>
-                <span className="block text-6xl md:text-8xl font-black tracking-tight leading-none">
-                  Morgan<span className="text-blue-600">.</span>
-                </span>
-              </h1>
-
-              <p className="reveal reveal-delay-2 mt-6 text-lg md:text-xl text-neutral-600 max-w-lg leading-relaxed">
-                {t.hero.description}
-              </p>
-
-              <div className="reveal reveal-delay-3 mt-8 flex flex-wrap gap-4">
-                <a
-                  href="#contact"
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition-colors"
-                >
-                  {t.hero.cta}
-                  <ArrowUpRight className="w-5 h-5" />
-                </a>
-                <button
-                  onClick={() => setCvModalOpen(true)}
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-white border-2 border-neutral-900 text-neutral-900 font-semibold rounded-full hover:bg-neutral-900 hover:text-white transition-colors"
-                >
-                  <FileText className="w-5 h-5" />
-                  {t.hero.viewCV}
-                </button>
-                <a
-                  href="/cv.pdf"
-                  download
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-neutral-100 text-neutral-900 font-semibold rounded-full hover:bg-neutral-200 transition-colors"
-                >
-                  <Download className="w-5 h-5" />
-                  {t.hero.downloadCV}
-                </a>
-              </div>
-
-              <div className="reveal reveal-delay-4 mt-12 flex items-center gap-8 text-sm text-neutral-500">
-                <div className="flex items-center gap-2">
-                  <MapPin className="w-4 h-4" />
-                  <span>Berlin, Germany</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Mail className="w-4 h-4" />
-                  <span>alex@email.com</span>
+      <section id="hero" className="flex items-center justify-center min-h-screen py-20 bg-gradient-to-b from-white to-blue-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col-reverse md:flex-row items-center gap-16">
+            {/* Text Content */}
+            <div className="flex-1">
+              <div className="max-w-xl">
+                {/* <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+                  {t.hero.greeting} <br className="hidden sm:block" />
+                  <span className="text-blue-600">{t.hero.intro}</span>
+                </h1> */}
+                <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+                  {t.hero.role}
+                </h2>
+                <p className="text-lg md:text-xl text-neutral-700 mb-6">
+                  {t.hero.description}
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a
+                    href="#contact"
+                    className="inline-block px-6 py-3 text-sm font-medium bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700 transition-colors"
+                  >
+                    {t.hero.cta}
+                  </a>
+                  <div className="flex gap-4">
+                    <a
+                      href="/cv.pdf"
+                      target="_blank"
+                      className="flex items-center gap-2 px-4 py-2 text-sm font-medium border border-blue-600 rounded-full text-blue-600 hover:bg-blue-600 hover:text-white transition-colors"
+                    >
+                      <Download className="w-4 h-4" />
+                      {t.hero.downloadCV}
+                    </a>
+                    <a
+                      href="/cv.pdf"
+                      target="_blank"
+                      className="flex items-center gap-2 px-4 py-2 text-sm font-medium border border-neutral-300 rounded-full text-neutral-900 hover:border-blue-600 transition-colors"
+                    >
+                      <FileText className="w-4 h-4" />
+                      {t.hero.viewCV}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Right Image */}
-            <div className="order-1 lg:order-2 relative">
-              <div className="reveal relative">
-                {/* Floating elements */}
-                <div className="absolute -top-4 -left-4 w-20 h-20 bg-blue-600 rounded-2xl animate-float opacity-80" />
-                <div className="absolute -bottom-6 -right-6 w-16 h-16 bg-neutral-900 rounded-full animate-float-reverse" />
-                <div className="absolute top-1/2 -right-8 w-12 h-12 border-2 border-blue-600 rounded-lg animate-float" />
-
-                {/* Main image container */}
-                <div className="relative bg-neutral-100 rounded-3xl overflow-hidden aspect-[4/5]">
-                  <img
-                    src="/professional-young-man-waiter-portrait-modern-mini.jpg"
-                    alt="Alex Morgan"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
+            {/* Image */}
+            <div className="flex-1 max-w-xs mx-auto">
+              <img
+                src="/profile.jpg"
+                alt="Profile"
+                className="w-full h-auto rounded-full shadow-lg"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      <section id="services" className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="reveal mb-16">
-            <h2 className="text-5xl md:text-7xl font-black">
-              {t.services.title}
-              <span className="font-serif italic font-normal text-blue-600"> {t.services.subtitle}</span>
-            </h2>
+      {/* Main Content */}
+      <div className="max-w-7xl mx-auto px-6 py-16">
+        {/* About Section */}
+        <section id="about" className="mb-16">
+          <div className="flex flex-col md:flex-row gap-8">
+            <div className="flex-1">
+              <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
+                {t.nav.about}
+              </h2>
+              <p className="text-lg text-neutral-700 mb-4">
+                {/* Add a short bio or introduction here */}
+                Привіт, я Алекс! Я креативний спеціаліст з України, який живе у Німеччині. Я займаюся веб-розробкою, дизайном, фотографією та обслуговуванням клієнтів. Моя мета - створювати інноваційні рішення, які надихають та приносять користь.
+              </p>
+              <a
+                href="#contact"
+                className="inline-block px-6 py-3 text-sm font-medium bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700 transition-colors"
+              >
+                {t.hero.cta}
+              </a>
+            </div>
+            <div className="flex-1">
+              <img
+                src="/about-image.jpg"
+                alt="About Image"
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
           </div>
+        </section>
 
-          <div className="grid md:grid-cols-2 gap-6">
+        {/* Services Section */}
+        <section id="services" className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
+            {t.services.title} {t.services.subtitle}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {t.services.list.map((service, index) => (
-              <div key={index} className={`reveal reveal-delay-${(index % 4) + 1} group`}>
-                <div className="h-full bg-neutral-50 p-8 rounded-3xl border border-neutral-200 hover:border-blue-600 hover:shadow-lg transition-all">
-                  <div className="text-5xl mb-4">{service.icon}</div>
-                  <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
-                  <p className="text-neutral-600 leading-relaxed">{service.description}</p>
+              <div
+                key={index}
+                className="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105"
+              >
+                <div className="text-4xl mb-4">
+                  {service.icon}
                 </div>
+                <h3 className="text-xl font-semibold mb-2">
+                  {service.title}
+                </h3>
+                <p className="text-neutral-700">
+                  {service.description}
+                </p>
               </div>
             ))}
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Experience Section */}
-      <section id="experience" className="py-24 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="reveal mb-16">
-            <h2 className="text-5xl md:text-7xl font-black">
-              {t.experience.title}
-              <span className="font-serif italic font-normal text-blue-600"> {t.experience.subtitle}</span>
-            </h2>
-          </div>
-
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-neutral-200 transform md:-translate-x-1/2" />
-
+        {/* Experience Section */}
+        <section id="experience" className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
+            {t.experience.title} {t.experience.subtitle}
+          </h2>
+          <div className="space-y-8">
             {t.experience.jobs.map((job, index) => (
               <div
                 key={index}
-                className={`reveal reveal-delay-${(index % 4) + 1} relative flex flex-col md:flex-row gap-8 mb-16 last:mb-0 ${index % 2 === 0 ? "md:flex-row-reverse" : ""}`}
+                className="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105"
               >
-                <div
-                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-blue-600 rounded-full transform md:-translate-x-1/2 z-10"
-                  style={{ top: "24px" }}
-                />
-
-                {/* Content */}
-                <div className={`md:w-1/2 pl-8 md:pl-0 ${index % 2 === 0 ? "md:pr-16 md:text-right" : "md:pl-16"}`}>
-                  <div className="bg-white p-6 rounded-2xl shadow-sm border border-neutral-100 hover:shadow-md transition-shadow">
-                    <span className="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-sm font-medium rounded-full mb-3">
-                      {job.period}
-                    </span>
-                    <h3 className="text-xl font-bold mb-1">{job.role}</h3>
-                    <p className="text-blue-600 font-medium mb-1">{job.company}</p>
-                    <p className="text-sm text-neutral-500 mb-3">{job.location}</p>
-                    <p className="text-neutral-600">{job.description}</p>
+                <div className="flex justify-between mb-4">
+                  <div>
+                    <h3 className="text-xl font-semibold">
+                      {job.role}
+                    </h3>
+                    <p className="text-sm text-neutral-500">
+                      {job.company} - {job.location}
+                    </p>
+                  </div>
+                  <div className="text-sm text-neutral-500">
+                    {job.period}
                   </div>
                 </div>
-
-                {/* Spacer for alternating layout */}
-                <div className="hidden md:block md:w-1/2" />
+                <p className="text-neutral-700">
+                  {job.description}
+                </p>
               </div>
             ))}
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="portfolio" className="py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="reveal mb-16">
-            <h2 className="text-5xl md:text-7xl font-black">
-              {t.portfolio.title}
-              <span className="text-blue-600">.</span>
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Portfolio Section */}
+        <section id="portfolio" className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
+            {t.portfolio.title}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {t.portfolio.projects.map((project, index) => (
-              <div key={index} className={`reveal reveal-delay-${(index % 4) + 1} group`}>
-                {/* Browser-style card */}
-                <div className="bg-white border-2 border-neutral-900 rounded-2xl overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition-all">
-                  {/* Browser header */}
-                  <div className="flex items-center gap-2 px-4 py-3 bg-neutral-100 border-b-2 border-neutral-900">
-                    <div className="w-3 h-3 rounded-full bg-red-400" />
-                    <div className="w-3 h-3 rounded-full bg-yellow-400" />
-                    <div className="w-3 h-3 rounded-full bg-green-400" />
-                    <span className="ml-2 text-xs text-neutral-500 font-mono">
-                      {project.title.toLowerCase().replace(/\s+/g, "-")}.com
+              <div
+                key={index}
+                className="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-sm text-neutral-500 mb-4">
+                  {project.category}
+                </p>
+                <p className="text-neutral-700 mb-4">
+                  {project.description}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {project.tech.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="text-xs font-medium bg-blue-100 text-blue-600 rounded-full px-3 py-1"
+                    >
+                      {tech}
                     </span>
-                  </div>
-
-                  {/* Image */}
-                  <div className="aspect-[4/3] bg-neutral-50 relative overflow-hidden">
-                    <img
-                      src={`/.jpg?height=300&width=400&query=${project.category.toLowerCase()}-${project.title.toLowerCase().replace(/\s+/g, "-")}-professional-work`}
-                      alt={project.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-
-                  {/* Content */}
-                  <div className="p-5">
-                    <span className="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-medium rounded-full mb-3">
-                      {project.category}
-                    </span>
-                    <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                    <p className="text-neutral-600 text-sm mb-3">{project.description}</p>
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {project.tech.map((tech, i) => (
-                        <span key={i} className="text-xs px-2 py-1 bg-neutral-100 text-neutral-700 rounded-md">
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                    <button className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:gap-3 transition-all">
-                      {t.portfolio.viewProject}
-                      <ArrowUpRight className="w-4 h-4" />
-                    </button>
-                  </div>
+                  ))}
                 </div>
+                <a
+                  href="#"
+                  className="mt-4 inline-block text-sm font-medium text-blue-600 hover:underline"
+                >
+                  {t.portfolio.viewProject}
+                </a>
               </div>
             ))}
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="py-24 bg-neutral-900 text-white">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="reveal">
-            <h2 className="text-5xl md:text-7xl font-black mb-6">
-              {t.contact.title}
-              <span className="font-serif italic font-normal text-blue-400"> {t.contact.subtitle}</span>
-            </h2>
-          </div>
-
-          <div className="reveal reveal-delay-1 flex justify-center gap-6 mb-12">
-            <a
-              href="mailto:alex@email.com"
-              className="p-4 bg-white/10 rounded-full hover:bg-blue-600 transition-colors"
+        {/* Contact Section */}
+        <section id="contact" className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
+            {t.nav.contact}
+          </h2>
+          <div className="max-w-xl mx-auto">
+            <form
+              action="#"
+              method="POST"
+              className="bg-white p-8 rounded-lg shadow-md space-y-4"
             >
-              <Mail className="w-6 h-6" />
-            </a>
-            <a href="tel:+491234567890" className="p-4 bg-white/10 rounded-full hover:bg-blue-600 transition-colors">
-              <Phone className="w-6 h-6" />
-            </a>
-            <a href="#" className="p-4 bg-white/10 rounded-full hover:bg-blue-600 transition-colors">
-              <Linkedin className="w-6 h-6" />
-            </a>
-            <a href="#" className="p-4 bg-white/10 rounded-full hover:bg-blue-600 transition-colors">
-              <Instagram className="w-6 h-6" />
-            </a>
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-neutral-700 mb-1">
+                  Ім'я
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  className="w-full p-3 text-sm border border-neutral-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                  placeholder="Ваше ім'я"
+                />
+              </div>
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-neutral-700 mb-1">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  className="w-full p-3 text-sm border border-neutral-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                  placeholder="Ваш email"
+                />
+              </div>
+              <div>
+                <label htmlFor="message" className="block text-sm font-medium text-neutral-700 mb-1">
+                  Повідомлення
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows={4}
+                  required
+                  className="w-full p-3 text-sm border border-neutral-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                  placeholder="Ваше повідомлення"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                className="w-full px-6 py-3 text-sm font-medium bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+              >
+                Відправити
+              </button>
+            </form>
           </div>
-
-          <div className="reveal reveal-delay-2">
-            <a
-              href="mailto:alex@email.com"
-              className="inline-flex items-center gap-3 px-10 py-5 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-700 transition-colors"
-            >
-              {t.contact.cta}
-              <ArrowUpRight className="w-5 h-5" />
-            </a>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* Footer */}
-      <footer className="py-8 bg-neutral-950 text-white">
+      <footer className="py-8 bg-white border-t border-neutral-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <span className="text-2xl font-black">
-              Alex<span className="text-blue-600">.</span>
-            </span>
-
-            <div className="flex items-center gap-6">
-              <a href="#" className="hover:text-blue-400 transition-colors">
+            <div className="text-sm text-neutral-500">
+              {t.footer.rights} &copy; {new Date().getFullYear()} Alex.
+            </div>
+            <div className="flex gap-4">
+              <a href="#" className="text-neutral-600 hover:text-blue-600 transition-colors">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
+              <a href="#" className="text-neutral-600 hover:text-blue-600 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
+              <a href="#" className="text-neutral-600 hover:text-blue-600 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-            </div>
-
-            <p className="text-sm text-neutral-500">© 2026 Alex Morgan. {t.footer.rights}</p>
-          </div>
-        </div>
-      </footer>
-
-      {cvModalOpen && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
-          onClick={() => setCvModalOpen(false)}
-        >
-          <div
-            className="bg-white rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-hidden"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Modal Header */}
-            <div className="flex items-center justify-between p-6 border-b border-neutral-200">
-              <h3 className="text-2xl font-bold">{t.cvModal.title}</h3>
-              <button
-                onClick={() => setCvModalOpen(false)}
-                className="p-2 hover:bg-neutral-100 rounded-full transition-colors"
-              >
-                <X className="w-6 h-6" />
-              </button>
-            </div>
-
-            {/* Modal Content */}
-            <div className="p-8 overflow-y-auto max-h-[calc(90vh-120px)]">
-              <div className="space-y-8">
-                {/* Personal Info */}
-                <div>
-                  <h2 className="text-4xl font-black mb-2">Alex Morgan</h2>
-                  <p className="text-xl text-blue-600 mb-4">{t.hero.role}</p>
-                  <div className="flex flex-wrap gap-4 text-sm text-neutral-600">
-                    <div className="flex items-center gap-2">
-                      <Mail className="w-4 h-4" />
-                      <span>alex@email.com</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Phone className="w-4 h-4" />
-                      <span>+49 123 456 7890</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <MapPin className="w-4 h-4" />
-                      <span>Berlin, Germany</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Services */}
-                <div>
-                  <h3 className="text-2xl font-bold mb-4 border-b-2 border-blue-600 pb-2">Services</h3>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    {t.services.list.map((service, index) => (
-                      <div key={index} className="flex gap-3">
-                        <span className="text-2xl">{service.icon}</span>
-                        <div>
-                          <h4 className="font-bold">{service.title}</h4>
-                          <p className="text-sm text-neutral-600">{service.description}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Experience */}
-                <div>
-                  <h3 className="text-2xl font-bold mb-4 border-b-2 border-blue-600 pb-2">
-                    {t.experience.title} {t.experience.subtitle}
-                  </h3>
-                  <div className="space-y-4">
-                    {t.experience.jobs.map((job, index) => (
-                      <div key={index} className="border-l-2 border-neutral-200 pl-4">
-                        <span className="text-sm text-blue-600 font-medium">{job.period}</span>
-                        <h4 className="text-lg font-bold">{job.role}</h4>
-                        <p className="text-neutral-700">
-                          {job.company} - {job.location}
-                        </p>
-                        <p className="text-sm text-neutral-600 mt-1">{job.description}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Modal Footer */}
-            <div className="flex gap-4 p-6 border-t border-neutral-200 bg-neutral-50">
-              <a
-                href="/cv.pdf"
-                download
-                className="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition-colors"
-              >
-                <Download className="w-5 h-5" />
-                {t.hero.downloadCV}
-              </a>
-              <button
-                onClick={() => setCvModalOpen(false)}
-                className="px-6 py-3 bg-neutral-200 text-neutral-900 font-semibold rounded-full hover:bg-neutral-300 transition-colors"
-              >
-                {t.cvModal.close}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-    </div>
-  )
-}
+            </div
