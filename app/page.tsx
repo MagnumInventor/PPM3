@@ -95,41 +95,23 @@ const translations = {
       viewProject: "Детальніше",
       projects: [
         {
-          title: "E-commerce Platform",
+          title: "E-commerce Platform for Kortex",
           category: "Веб-розробка",
           description: "Сучасна платформа електронної комерції з Next.js та Stripe",
           tech: ["Next.js", "React", "Tailwind"],
         },
         {
-          title: "Brand Identity Design",
-          category: "Дизайн",
-          description: "Комплексний брендинг для стартапу",
-          tech: ["Figma", "Illustrator", "Photoshop"],
-        },
-        {
-          title: "Fashion Photography",
-          category: "Фотографія",
-          description: "Професійна портфоліо зйомка для моделей",
-          tech: ["Canon", "Lightroom", "Photoshop"],
-        },
-        {
-          title: "Restaurant App",
+          title: "Платформа для персоналу ресторану",
           category: "Веб-розробка",
           description: "Робоче середовище для персоналу ресторану",
           tech: ["MERN", "React", "Node.js", "MongoDB"],
         },
         {
-          title: "Product Photography",
-          category: "Фотографія",
-          description: "Комерційна зйомка продуктів для e-commerce",
-          tech: ["Studio", "Retouching"],
-        },
-        {
-          title: "Mobile App UI",
-          category: "Дизайн",
-          description: "UI/UX дизайн мобільного додатку для фітнесу",
-          tech: ["Figma", "Prototyping"],
-        },
+          title: "Дизайн презентацій та відеомонтаж",
+          category: "Дизайн та монтаж",
+          description: "Комерційна зйомка продуктів для e-commerce, редагування відео та створення презентацій",
+          tech: ["Освітлення", "Студійна зйомка", "Photoshop", "Canva", "DaVinci Resolve"],
+        }
       ],
     },
     contact: {
@@ -174,24 +156,24 @@ const translations = {
         },
         {
           title: "Kreatives Design",
-          description: "UI/UX-Design, Branding, презентація створення, графічний дизайн та створення унікальних візуальних рішень",
+          description: "UI/UX-Design, Branding, Präsentationserstellung, grafischer Design und Erstellung einzigartiger visueller Lösungen",
           icon: "🎨",
         },
         {
-          title: "Фото та монтаж",
-          description: "Предметна фотозйомка, робота з DaVinci Resolve, Sony Vegas, редагування та монтаж комерційних проектів, послуги моделі для комерційних зйомок",
+          title: "Foto & Montage",
+          description: "Präsentationsfotografie, Arbeit mit DaVinci Resolve, Sony Vegas, Bearbeitung und Montage kommerzieller Projekte, Modell-Dienste für kommerzielle Shoots",
           icon: "📸",
         },
         {
-          title: "Обслуговування клієнтів",
-          description: "Досвід роботи у закладах готельно-ресторанного бізнесу України",
+          title: "Kundenservice",
+          description: "Erfahrung in der Gastronomie- und Restaurantbranche in der Ukraine",
           icon: "🍽️",
         },
       ],
     },
     experience: {
-      title: "Берufs",
-      subtitle: "erfahrung",
+      title: "Bерufs",
+      subtitle: "Erfahrung",
       jobs: [
         {
           period: "01.2026 — Heute",
@@ -202,24 +184,24 @@ const translations = {
         },
         {
           period: "10.2025 — 01.2026",
-          role: "Кухар",
-          company: "ХАН",
+          role: "Koch",
+          company: "KHAN",
           location: "Ternopil, Ukraine",
-          description: "Приготування фаст-фуду та донеру, комплексна робота з прийомом замовлень, касою, праця на складі.",
+          description: "Zubereitung von Fast Food und Döner, Bearbeitung von Bestellungen, Kasse und Lagerarbeit.",
         },
         {
           period: "08-09.2025",
-          role: "Касир",
-          company: "Парк Ліхтарів",
+          role: "Kassierer",
+          company: "Park of Lanterns",
           location: "Ternopil, Ukraine",
-          description: "Обслуговування клієнтів, робота з готівкою та касовим апаратом.",
+          description: "Kundenservice, Umgang mit Bargeld und Kasse.",
         },
         {
           period: "Q2 2025 — Q3 2025",
-          role: "Ранер",
-          company: "Ресторан-пивоварня \"Ковчег\"",
+          role: "Hilfskraft",
+          company: "Restaraunt Kovcheg",
           location: "Ternopil, Ukraine",
-          description: "Початок кар'єри, освоєння основ обслуговування гостей, робота в колективі.",
+          description: "Karrierestart, Erlernen der Grundlagen des Gästeservices und der Teamarbeit.",
         },
       ],
     },
@@ -230,39 +212,21 @@ const translations = {
         {
           title: "E-commerce Platform",
           category: "Webentwicklung",
-          description: "Moderne E-Commerce-Plattform з Next.js та Stripe",
-          tech: ["Next.js", "React", "Tailwind"],
+          description: "Moderne E-Commerce-Plattform mit Next.js und Stripe",
+          tech: ["Next.js", "React", "Tailwind4v"],
         },
         {
-          title: "Brand Identity Design",
-          category: "Дизайн",
-          description: "Комплексний брендинг для стартапу",
-          tech: ["Figma", "Illustrator", "Photoshop"],
-        },
-        {
-          title: "Fashion Photography",
-          category: "Фотографія",
-          description: "Професійна портфоліо зйомка для моделей",
-          tech: ["Canon", "Lightroom", "Photoshop"],
+          title: "Presentation Design",
+          category: "Design",
+          description: "Umfassendes Branding für ein Startup",
+          tech: ["Figma", "Canva"],
         },
         {
           title: "Restaurant App",
-          category: "Веб-розробка",
-          description: "Робоче середовище для персоналу ресторану",
+          category: "Webentwicklung",
+          description: "Arbeitsumgebung für Restaurant-Mitarbeiter",
           tech: ["MERN", "React", "Node.js", "MongoDB"],
-        },
-        {
-          title: "Product Photography",
-          category: "Фотографія",
-          description: "Комерційна зйомка продуктів для e-commerce",
-          tech: ["Studio", "Retouching"],
-        },
-        {
-          title: "Mobile App UI",
-          category: "Дизайн",
-          description: "UI/UX дизайн мобільного додатку для фітнесу",
-          tech: ["Figma", "Prototyping"],
-        },
+        }
       ],
     },
     contact: {
@@ -330,7 +294,7 @@ const translations = {
         {
           period: "10.2025 — 01.2026",
           role: "Cook",
-          company: "HAN",
+          company: "KHAN",
           location: "Ternopil, Ukraine",
           description: "Preparing fast food and doner, handling orders, cash register, and warehouse work.",
         },
@@ -361,35 +325,11 @@ const translations = {
           tech: ["Next.js", "React", "Tailwind"],
         },
         {
-          title: "Brand Identity Design",
-          category: "Design",
-          description: "Comprehensive branding for a startup",
-          tech: ["Figma", "Illustrator", "Photoshop"],
-        },
-        {
-          title: "Fashion Photography",
-          category: "Photography",
-          description: "Professional portfolio shoots for models",
-          tech: ["Canon", "Lightroom", "Photoshop"],
-        },
-        {
           title: "Restaurant App",
           category: "Web Development",
           description: "Work environment for restaurant staff",
           tech: ["MERN", "React", "Node.js", "MongoDB"],
-        },
-        {
-          title: "Product Photography",
-          category: "Photography",
-          description: "Commercial product photography for e-commerce",
-          tech: ["Studio", "Retouching"],
-        },
-        {
-          title: "Mobile App UI",
-          category: "Design",
-          description: "UI/UX design for fitness mobile app",
-          tech: ["Figma", "Prototyping"],
-        },
+        }
       ],
     },
     contact: {
@@ -491,7 +431,7 @@ export default function Portfolio() {
             {/* Name */}
             <a href="#" className="group">
               <span className="text-2xl md:text-3xl font-black tracking-tight">
-                Alex<span className="text-blue-600">.</span>
+                Oleksandr<span className="text-blue-600">.</span>
               </span>
             </a>
 
@@ -830,7 +770,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-sm text-neutral-500">
-              {t.footer.rights} &copy; {new Date().getFullYear()} Alex.
+              {t.footer.rights} &copy; {new Date().getFullYear()} Oleksandr.
             </div>
             <div className="flex gap-4">
               <a href="#" className="text-neutral-600 hover:text-blue-600 transition-colors">
@@ -842,4 +782,10 @@ export default function Portfolio() {
               <a href="#" className="text-neutral-600 hover:text-blue-600 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-            </div
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  )
+}
