@@ -525,10 +525,14 @@ export default function Portfolio() {
             {/* Text Content */}
             <div className="flex-1">
               <div className="max-w-xl">
-                {/* <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-                  {t.hero.greeting} <br className="hidden sm:block" />
-                  <span className="text-blue-600">{t.hero.intro}</span>
-                </h1> */}
+
+              <h1 className="reveal reveal-delay-1">
+                <span className="block text-6xl md:text-8xl font-black tracking-tight leading-none mt-2">Oleksandr</span>
+                <span className="block text-6xl md:text-8xl font-black tracking-tight leading-none">
+                  Markovych<span className="text-blue-600">.</span>
+                </span>
+              </h1>
+              
                 <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
                   {t.hero.role}
                 </h2>
@@ -587,7 +591,7 @@ export default function Portfolio() {
               </h2>
               <p className="text-lg text-neutral-700 mb-4">
                 {/* Add a short bio or introduction here */}
-                Привіт, я Алекс! Я креативний спеціаліст з України, який живе у Німеччині. Я займаюся веб-розробкою, дизайном, фотографією та обслуговуванням клієнтів. Моя мета - створювати інноваційні рішення, які надихають та приносять користь.
+                Привіт, я Саша, креативний спеціаліст з України. Я займаюся веб-розробкою, дизайном, фотографією та обслуговуванням клієнтів. Моя мета - створювати інноваційні рішення, які надихають та приносять користь.
               </p>
               <a
                 href="#contact"
