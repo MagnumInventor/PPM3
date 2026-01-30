@@ -95,10 +95,10 @@ const translations = {
       viewProject: "Детальніше",
       projects: [
         {
-          title: "E-commerce Platform for Kortex",
+          title: "E-commerce Platform for Kortex shop",
           category: "Веб-розробка",
           description: "Сучасна платформа електронної комерції з Next.js та Stripe",
-          tech: ["Next.js", "React", "Tailwind"],
+          tech: ["HTML", "JavaScript", "CSS"],
         },
         {
           title: "Платформа для персоналу ресторану",
@@ -213,7 +213,7 @@ const translations = {
           title: "E-commerce Platform",
           category: "Webentwicklung",
           description: "Moderne E-Commerce-Plattform mit Next.js und Stripe",
-          tech: ["Next.js", "React", "Tailwind4v"],
+          tech: ["HTML", "JavaScript", "CSS"],
         },
         {
           title: "Presentation Design",
@@ -322,7 +322,7 @@ const translations = {
           title: "E-commerce Platform",
           category: "Web Development",
           description: "Modern e-commerce platform built with Next.js and Stripe",
-          tech: ["Next.js", "React", "Tailwind"],
+          tech: ["HTML", "JavaScript", "CSS"],
         },
         {
           title: "Restaurant App",
